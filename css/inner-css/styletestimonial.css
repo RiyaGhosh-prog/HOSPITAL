@@ -1,0 +1,79 @@
+/* CSS Document */
+
+*{margin:0;padding:0; box-sizing:border-box;}
+
+ html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 350px;
+		background:#FFFFFF;
+       
+      }
+	  
+	  .testimonialbox{
+	  position:relative;
+	  width:100%;
+	  padding:60px;
+	  padding-top:74px;
+	  color:#999;
+	  display:flex;
+	  justft-content:center;
+	  
+	  }
+	  .testimonialbox:hover{
+	  transform:scale(1.4);
+	  z-index:10000
+	  }
+	  
+	  
+	  .testimonialbox .fa{
+	  position:absolute;
+	  top:20px;
+	  right:30px;
+	  
+	  }
+	  
+	  .testimonialbox .details{
+	  display:flex;
+	   align-items:center;
+	   margin-top:20px;
+	  }
+	  
+	  .testimonialbox .details .img-box{
+	  position:relative;
+	  width:60px;
+	  height:60px;
+	  border-radius:50%;
+	  overflow:hidden;
+	  margin-right:10px
+	 
+	  }
+	  .testimonialbox .details  span{color:#6633CC; font-size:18px}
+	  .star{}
+	  
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }

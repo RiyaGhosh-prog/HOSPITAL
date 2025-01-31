@@ -1,0 +1,125 @@
+/* CSS Document */
+
+body{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:url(../../images/contact-bg.jpg);background-size:cover;}
+*{margin:0; padding:0;box-sizing:border-box;}
+.cb{clear:both !important}
+
+/*.outer-content{background:url(../../images/appointment-lowbg.jpg); background-size:cover;height:}*/
+.inner-content{width:1170px;margin:0 auto;}
+.heading{text-align:center;color:#FFFFFF;padding-bottom:32px;border-bottom:2px solid #00FFFF; margin-bottom:10px}
+.L-content-icon{float:left;
+margin-top:20px;
+}
+.L-content-icon   ul{list-style:none;}
+
+.L-content-icon  ul li .fa
+{
+border: 2px solid #009966;
+border-radius:60%;
+padding: 19px;
+margin-bottom:37px;
+text-align:center;
+background:#FFFFFF;
+font-size:18px
+}
+
+.L-content-p{
+float:left;
+margin-top:20px;
+}
+
+.L-content-p ul{
+list-style:none
+}
+
+.L-content-p ul li{
+margin-bottom: 50px;
+margin-left: 20px;
+padding-top:13px;
+
+}
+.L-content-p ul li a{
+text-decoration:none;
+}
+
+.L-content-p ul li p{color:#FFFFFF;}
+.L-content-p span{color:#00FFCC;}
+
+.L-content-p ul li a:hover{background:#FF0000;}
+
+
+.social{padding-top:20px;padding-bottom:20px; float:left}
+.social ul{list-style:none;}
+
+.social ul li { border: 2px solid #00CC99;   border-radius:60%; padding: 8px; display: inline-block; background:#FF0000;}
+.social ul li i{color:#FFFFFF;}
+.social i:hover{color:#FF0000;}
+
+
+
+/*****************RIGHT-CONTAINER-BOX********************/
+.right-contactform{
+  width:500px;
+  height:auto;
+  background:#FFFFFF;
+  float:right;
+  padding:20px;
+}
+
+.right-contactform  .inputbox{
+  width:100%;
+  position:relative;
+  padding-top:20px;
+}
+
+.right-contactform  .inputbox span{
+   position: absolute;
+   font-size: 16px;
+   pointer-events: none;
+   transition: 0.5%;
+   color: #009999;
+   left: 0;
+   padding-top: 7px;;
+}
+
+.right-contactform  .inputbox  input{
+width:100%;
+padding:10px;
+font-size:18px;
+border:none;
+border-bottom:2px solid #000033;
+}
+
+.right-contactform  .inputbox  input:focus ~ span,
+.right-contactform  .inputbox  input:valid ~ span
+.right-contactform  .inputbox  textarea:focus ~ span,
+.right-contactform  .inputbox  textarea:valid ~ span
+{
+color:#e91e63;
+font-size:12px;
+transform:translateY(-20px);
+}
+
+.right-contactform  .inputbox textarea{
+width:50%;
+height:100px;
+}
+
+.sub-btn button
+{width:50%;
+margin-top:20px;
+padding:10px;
+background:#0099CC;
+border-radius:10rem;
+}
+
+
+.map-box{
+width:500px;
+height:auto 0;
+background:#FF0000;
+float:right;
+margin-top:20px;
+}
+
+.map-box iframe{width:100%;}

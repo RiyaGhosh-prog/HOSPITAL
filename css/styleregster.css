@@ -1,0 +1,25 @@
+/* CSS Document */
+body{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:url(../images/appointment-lowbg.jpg);background-size:cover; }
+*{margin:0; padding:0;box-sizing:border-box;}
+.cb{clear:both !important}
+
+
+
+.eleven-section{width:1170px; margin:0 auto;  text-align:center; margin-top:30px; color:#FFFFFF;}
+
+
+.container-box{width:100%; height:auto; background:#FFFFFF; overflow:hidden;  box-shadow: 1px 5px 1px #aaa; background:rgba(0,0,0,0.5);}
+.left-img{width:48% ;height:auto; float:left; }
+.left-img img{width:100%; height:auto;}
+/*.right-content{float:right; width:48%; color:#033b4a; margin-top:40px;}*/
+.right-content h1{padding-top:40px;}
+
+
+.col-container .row-3{width:248px;height:50px;   background:#eceded; float:left;   margin:20px;   margin-left: 33px;  border:none }    /* ELEVENT SECTION 6 BOX*/
+
+.col-container p{color:#FFFFFF;}
+
+
+.row-4{width:547px;height:47px; background:#00d6a3; float:left; margin:5px; margin-left: 33px; padding: 10px 190px 0 190px; color:#FFFFFF;text-decoration:none; }
+.btn{padding:15px 189px; background:#00CC99; border:none;   margin-left:6px; margin-top:25px }
+ .btn:hover{background:#00FFCC;}
